@@ -45,7 +45,7 @@ export class PainelComponent implements OnInit {
         this.rodada++;
 
         this.progresso +=  (100 / this.frases.length);
-       this.atualizaRodada();
+        this.atualizaRodada();
       }
      
    // }
