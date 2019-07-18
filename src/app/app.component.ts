@@ -10,9 +10,17 @@ export class AppComponent {
 
   public jogoEmAndamento:boolean = true;
 
+  public tipoEncerramento:string;
+
   public encerrarJogo(tipo: string):void{
 
     this.jogoEmAndamento = false;
-    console.log(tipo);
+    this.tipoEncerramento = tipo;
+  }
+
+  public reinicarJogo():void{
+
+    this.jogoEmAndamento = true;
+    this.tipoEncerramento = undefined;
   }
 }

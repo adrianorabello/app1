@@ -2,3 +2,7 @@
 
 
 ng generate component nomedocomponente -> para criar um componente
+
+ng build --env=dev -> para gerar o build de desenvolvimento
+
+ng build --env=prod -> para gerar o build de produição ( onde vai gerar o build ons o código não fica légivel)
