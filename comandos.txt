@@ -1,0 +1,4 @@
+
+
+
+ng generate component nomedocomponente -> para criar um componente
